@@ -25,7 +25,7 @@ def new():
     textarea.delete(1.0, END)
 
 def about():
-    showinfo("About Company ","This software is developed by NETTECHIANS and has the complete @ copywrite")
+    showinfo("About Company ","This software is developed by NIKHIL and has the complete @ copywrite")
 
 def openFile():
     nameofFile = askopenfile()
@@ -46,11 +46,11 @@ def saveFile():
     f.close()
 
 def teams():
-    showinfo("About Team","Lead Developer : Nachiket , Testing : Vishal Garje , Design and UI : Archana Bharti ")
+    showinfo("About Team","Lead Developer : Nikhil , Testing : Vishal Garje , Design and UI : Shubham Khandekar ")
 
 root = Tk()
 root.geometry("500x300")
-root.title("Notepad by Viraj")
+root.title("Notepad by Nikhil")
 textarea = Text()
 textarea.pack(expand=True,fill=BOTH)
 textarea.config(bg="light yellow")
